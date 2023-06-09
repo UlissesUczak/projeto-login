@@ -16,14 +16,12 @@ Telas Grandes acima de 1200px
     .telalogo {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-
-        .telalogin {
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-
     }
 
+    .telalogin {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 
 
@@ -32,15 +30,17 @@ Telas Grandes acima de 1200px
 
     main {
         display: flex;
-
-        .telalogin {
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-
     }
 
+    .telalogo {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 
+    .telalogin {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -48,16 +48,19 @@ Telas Grandes acima de 1200px
 
     main {
         display: flex;
-
-        .telalogin {
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-
-
     }
 
+    .telalogo {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .telalogin {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
+
 
 @media screen and (min-width:992px) and (max-width:1200px) {
 
@@ -65,14 +68,17 @@ Telas Grandes acima de 1200px
     main {
         display: flex;
 
-        .telalogin {
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-        }
-
-
     }
 
+    .telalogo {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .telalogin {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -80,12 +86,15 @@ Telas Grandes acima de 1200px
 
     main {
         display: flex;
+    }
 
-        .telalogin {
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;  }
-            
+    .telalogo {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 
-
+    .telalogin {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 }
