@@ -31,26 +31,30 @@
 
             <h1>Bem vindo!</h1>
 
-            <form action="cadastro.php" method="post">
+            <form action="cadastro.php" method="post" autocomplete="on">
 
                 <p class="saudacoes">Ao Rooftop mais alto da cidade.</p>
                 <br>
 
                 <p>
-                    <label for="iuser"><span class="material-icons">
+                    <label for="iemail"><span class="material-icons">
                         account_circle
                         </span></label>
-                    <input class="inputs" type="text" name="user" id="iuser" required min="6" placeholder="Usuário (min 6 caract.)">
+                    <input class="inputs" type="email" name="email" id="iemail" placeholder="E-mail" minlength="8" required >
                 </p>
                 <br>
                 <p>
                     <label for="ipass"><span class="material-icons">
                         lock
                         </span></label>
-                    <input class="inputs" type="password" name="pass" id="ipass" required min="6" placeholder="Senha (min 6 caract.)">
+                    <input class="inputs" type="password" name="pass" id="ipass" required min="8" placeholder="Senha (min 8 caract.)">
                 </p>
 
                 <p><br><input class="enter" type="submit" value="Login"></p>
+
+                <p><a href="">Esqueci a senha <span class="material-icons">
+                    lightbulb
+                    </span></a></p>
 
             </form>
 

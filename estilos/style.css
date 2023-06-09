@@ -12,6 +12,12 @@ Telas Grandes acima de 1200px
 
 */
 
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -30,11 +36,7 @@ Telas Grandes acima de 1200px
 }
 
 
-* {
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 body {
     background-image: url(../imagem/building.png);
@@ -69,6 +71,9 @@ h1 {
 
     position: relative;
 
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
 }
 
 
@@ -96,7 +101,8 @@ form {
 .enter {
     background-color: black;
     color: white;
-    width: 50px;
+    width: 80px;
+    height: 20px;
     cursor: pointer;
 
 }
@@ -106,5 +112,13 @@ form {
 }
 
 .enter:hover {
+    color: #EBB702;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
     color: #EBB702;
 }
