@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+/*
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop 992px até 1200px
+Telas Grandes acima de 1200px
+
+
+*/
+@media screen and (max-width:600px) {
+
+    .telalogo {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+        .telalogin {
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+    }
+
+}
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+
+
+    main {
+        display: flex;
+
+        .telalogin {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+
+    main {
+        display: flex;
+
+        .telalogin {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+
+    main {
+        display: flex;
+
+        .telalogin {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+
+    main {
+        display: flex;
+
+        .telalogin {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;  }
+            
+
+
+    }
+}

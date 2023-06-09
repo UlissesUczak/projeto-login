@@ -23,7 +23,9 @@ Telas Grandes acima de 1200px
         left: 50%;
     
         transform: translate(-50%, -50%);
-    }   
+    }
+
+
 
 }
 
@@ -45,7 +47,6 @@ body {
 }
 
 main {
-
     background-size: cover;
     position: absolute;
     top: 50%;
@@ -55,8 +56,11 @@ main {
 
 }
 
+h1 {
+    margin: 30px;
+}
+
 .telalogin {
-    display: block;
     background-color: black;
     color: white;
     border: 2px solid black;
@@ -64,11 +68,11 @@ main {
     height: 300px;
 
     position: relative;
+
 }
 
 
-.telalogo {
-    display: block;
+.telalogo {   
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../imagem/logo.png);
@@ -85,11 +89,6 @@ form {
     left: 10%;
 }
 
-form .saudacoes {
-    margin-top: -35px;
-    
-}
-
 .inputs {
     height: 15px;
 }
@@ -97,6 +96,15 @@ form .saudacoes {
 .enter {
     background-color: black;
     color: white;
-    width: 50px
+    width: 50px;
+    cursor: pointer;
 
+}
+
+.material-icons:hover {
+    color: #EBB702;
+}
+
+.enter:hover {
+    color: #EBB702;
 }
